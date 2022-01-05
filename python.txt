@@ -1,0 +1,29 @@
+-------------------PYTHON-------------------------
+
+----VARIABLES
+variable: space in memory
+num = 3 inside num i put the 3 object
+the identifier can't start whith a number, always lowercase words, 
+    in the case of two words or more, separate them with an underscore
+
+----TRASFORM DATA
+int() transform to an integer
+str() transform to a string
+
+----LOGIC AND COMPARISON OPERATORS
+'and' compares if two values are true.
+or compares if any of the values is true
+not inverts the value of the boolean.
+== Compare two values and tell you if they are the same or not.
+! = Compare two values and tell you whether they are different or not.
+> Compare if it is greater than another value.
+> Compare if it is less than another value.
+> = equal to or greater than the value to compare.
+<= equal to or less than the value to compare.
+
+----FIRST PROGRAM
+converter.py
+
+----CONDITIONALS
+
+----FUNCTIONS
