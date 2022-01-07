@@ -27,3 +27,30 @@ converter.py
 ----CONDITIONALS
 
 ----FUNCTIONS
+
+Built-in Functions
+https://docs.python.org/3/library/functions.html#oct
+
+----SLICES
+name = "Francisco"
+name
+"Francisco"
+
+name [0: 3) // Start from the first index to before the 3rd index.
+"Fra"
+name [: 3] // Goes from the beginning to before reaching the 3rd index. since there is no parameter in the first place,
+     it is interpreted that it starts from the beginning.
+"Fra"
+
+name [1: 7] // Start from index 1 to before 7.
+"rancis"
+name [1: 7: 2] // Starts from index 1 to before 7, but steps from 2 to 2, since that is what it tells us
+     Number 3! parameter, which is 2.
+
+name [1 :: 3] // Starts from index 1 to the end of the string (as there is no 2nd parameter, it means that it goes to the end),
+     but in steps of 3 by 3.
+"rcc"
+
+name [:: - 1] // As there is no parameter in the first 2 places, it is interpreted that it starts from the beginning to the end,
+     but in steps of 1 by 1 with the word backwards, because it is -1.
+"ocsicnarF"

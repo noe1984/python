@@ -1,9 +1,17 @@
+def conversor(tipo_pesos, tipo_cambio):
+	pesos = input('¿Cuántos pesos ' + tipo_pesos + ' tienes?: ')
+	pesos = float(pesos)
+	dolares = pesos / tipo_cambio
+	dolares = round(dolares, 2)
+	dolares = str(dolares)
+	print('Tienes $' + dolares +' dólares')
+
 menu = """
 Bienvenido al conversor de monedas multipais
 
 1-Pesos Mexicanos
 2-Pesos Colombianos
-3-Pesos Argentinos
+3-Pesos Argent inos
 
 Elige una opción: 
 
@@ -11,27 +19,13 @@ Elige una opción:
 opcion = int(input(menu))
 
 if opcion == 1: 
-	pesos = input('¿Cuántos pesos mexicanos tienes?: ')
-	pesos = float(pesos)
-	tipo_de_cambio = 21.5
+	conversor('mexicanos', 21)
 elif opcion == 2: 
-	pesos = input('¿Cuántos pesos colombianos tienes?: ')
-	pesos = float(pesos)
-	tipo_de_cambio = 3715.01
+	conversor('colombianos', 3715.01)
 elif opcion == 3: 
-	pesos = input('¿Cuántos pesos argentinos tienes?: ')
-	pesos = float(pesos)
-	tipo_de_cambio = 74.44
+	conversor('argentinos', 74.44)
 else:
 	print('Escribe una opción correcta: ')
-
-
-
-dolares = pesos / tipo_de_cambio
-dolares = round(dolares, 2)
-dolares = str(dolares)
-
-print('Tienes $' + dolares +' dólares')
 
 
 
