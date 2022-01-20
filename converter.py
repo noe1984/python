@@ -11,7 +11,7 @@ Bienvenido al conversor de monedas multipais
 
 1-Pesos Mexicanos
 2-Pesos Colombianos
-3-Pesos Argent inos
+3-Pesos Argentinos
 
 Elige una opción: 
 

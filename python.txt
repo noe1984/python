@@ -36,7 +36,7 @@ name = "Francisco"
 name
 "Francisco"
 
-name [0: 3) // Start from the first index to before the 3rd index.
+name [0: 3] // Start from the first index to before the 3rd index.
 "Fra"
 name [: 3] // Goes from the beginning to before reaching the 3rd index. since there is no parameter in the first place,
      it is interpreted that it starts from the beginning.
@@ -44,7 +44,7 @@ name [: 3] // Goes from the beginning to before reaching the 3rd index. since th
 
 name [1: 7] // Start from index 1 to before 7.
 "rancis"
-name [1: 7: 2] // Starts from index 1 to before 7, but steps from 2 to 2, since that is what it tells us
+name [1: 7: 2] // Starts from index 1 to before 7, but steps from 2 by 2, since that is what it tells us
      Number 3! parameter, which is 2.
 
 name [1 :: 3] // Starts from index 1 to the end of the string (as there is no 2nd parameter, it means that it goes to the end),
@@ -54,3 +54,15 @@ name [1 :: 3] // Starts from index 1 to the end of the string (as there is no 2n
 name [:: - 1] // As there is no parameter in the first 2 places, it is interpreted that it starts from the beginning to the end,
      but in steps of 1 by 1 with the word backwards, because it is -1.
 "ocsicnarF"
+
+
+----PALINDROME
+* if __name__ == '__main__':  // this is called "the entry point"
+    run()
+
+1- Create the function 'run' and inside create 'word' whis is a variable that contains an input 
+    "Write a word" 
+2- After tha into a variable called is_palindrome save the function 'palindrome(word)' which receive a word
+3- Continue with a condicional 
+4- go to function 'run' and quit all the spaces from the word received and convert to lowercase with the 'lower' function
+5- 
