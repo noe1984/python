@@ -65,4 +65,8 @@ name [:: - 1] // As there is no parameter in the first 2 places, it is interpret
 2- After tha into a variable called is_palindrome save the function 'palindrome(word)' which receive a word
 3- Continue with a condicional 
 4- go to function 'run' and quit all the spaces from the word received and convert to lowercase with the 'lower' function
-5- 
+5- Create another varible 'backward_word' which should reverse the 'word'
+6- finally do a comparison between word and backward_word if this two elements are equal return True 
+    else return False.
+
+----LOOPS
