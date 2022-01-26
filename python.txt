@@ -71,3 +71,6 @@ name [:: - 1] // As there is no parameter in the first 2 places, it is interpret
 
 ----LOOPS
 
+----LOOPING THROUGH STRING WITH THE LOOP FOR 
+
+
