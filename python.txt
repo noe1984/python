@@ -73,8 +73,28 @@ name [:: - 1] // As there is no parameter in the first 2 places, it is interpret
 ----LOOPING THROUGH STRING WITH THE LOOP FOR 
 ----BREAK AND CONTINUE
 ----PRIMALITY TEST
+----GUESS THE NUMBER
 
+----OBJECTS
+objetos = ['hola', 3, 4.5, True]
+we can acces to the elements by index position 
+examples:
 
+    objetos.pop(1)
+displays
+    objetos = ['hola', 4.5, True]
 
+for elemento in objetos:
+    print(elemento)
+displays
+    hola
+    4.5
+    True
+
+objetos[::-1]
+displays
+    [True, 4.5, 'hola']
+
+----TUPLES
 
 
