@@ -96,5 +96,6 @@ displays
     [True, 4.5, 'hola']
 
 ----TUPLES
+ny_tuple = (1, 2, 3, 4, 5)      this type of element is static, it can't be modified
 
 
