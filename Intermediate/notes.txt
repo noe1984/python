@@ -1,0 +1,22 @@
+-----------PYTHON-------------
+
+----VIRTUAL ENVIROMENT
+python3 -m venv venv            create virtual enviroment in linux(ubuntu)), apt install python3.8-venv if
+    this package doesn't exists.
+ 
+.\venv\Scripts\activate         this activate venv in windows
+source venv/bin/activate        this activate venv    
+deactive                        this deactivate venv
+
+alias avenv='source venv/bin/activate' (create an alias in linux(ubuntu) modifying zshrc)
+
+
+----PIP (PACKAGE INSTALLER FOR PYTHON)
+pip freeze      it shows which modules are installed
+
+example pip install pandas 
+pip freeze > requirements.txt       to save dependencies
+pip install -r requirements.txt     to install the same dependencies of a proyect
+
+
+
